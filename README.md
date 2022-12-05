@@ -1,4 +1,45 @@
-# Defactify
-* LGBM (only additional features)
-    * 32 dim feat -> lgbm -> category
-    * Macro-F1: 0.8049
+# Official code of Team Triple-Check at Multi-Modal-Fact-Verification-2023
+We won the **first place** in [De-Factify workshop in AAAI-23](https://aiisc.ai/defactify2/) and the technical report will be released very soon.
+
+- Previous verion of our model: [Pre_CoFactv1](https://github.com/wywyWang/Multi-Modal-Fact-Verification-2021)
+
+## Task
+A multimodality clssification task, which we should find out support, insufficient-evidence and refute between given claims and documents.
+
+## Usage
+- Train model
+    ```
+    bash single_model.sh
+    ```
+- Evaluate model
+    ```
+    python evaluate.py ${model_path}
+    ```
+- Ensemble models
+    ```
+    python ensemble.py
+    ```
+
+## Dataset
+- Train set: 35,000, 7,000 for each class.
+- Validation set: 7,500, 1,500 for each class.
+- Test set: 7,500, 1,500 for each class.
+For more details, please refer to [FACTIFY: A Multi-Modal Fact Verification Dataset](https://www.researchgate.net/publication/356342935_FACTIFY_A_Multi-Modal_Fact_Verification_Dataset).
+
+## Metric
+F1 averaged across the 5 categories. The final ranking would be based on the weighted average F1 score.
+
+## Method Overview
+<div align="left">
+<img src="Model_framework.png"/>
+</div>
+
+## Experiment Overview
+<div align="left">
+<img src="Confusion_matrix.png"/>
+</div>
+
+## Leaderboard
+<div align="left">
+<img src="Leaderboard.png"/>
+</div>
