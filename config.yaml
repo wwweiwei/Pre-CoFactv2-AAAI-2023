@@ -1,0 +1,17 @@
+seed_value: 42
+batch_size: 24
+lr: 0.00005
+epochs: 15
+text_dim: 1024
+image_dim: 1024
+hidden_dim: 256
+head: 2
+dropout: 0.1
+max_sequence_length: 512
+device: "1"
+pretrained_text: microsoft/deberta-large
+pretrained_image: microsoft/swinv2-base-patch4-window8-256
+eval_per_epochs: 1
+freeze_text: 1
+freeze_image: 1
+loss_weight: 0.7
