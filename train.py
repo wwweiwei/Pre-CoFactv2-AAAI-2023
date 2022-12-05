@@ -104,8 +104,8 @@ if __name__ == '__main__':
 
     fake_net = FakeNet(config)
 
-    fake_net.load_state_dict(torch.load('/home/wei/ssd2/factify/yao/model/20221201-131212_/10model', map_location=torch.device(f"cuda:{config['device']}")))
-    vit_model.load_state_dict(torch.load('/home/wei/ssd2/factify/yao/model/20221201-131212_/10vitmodel', map_location=torch.device(f"cuda:{config['device']}")))
+    fake_net.load_state_dict(torch.load('./model/20221201-131212_/10model', map_location=torch.device(f"cuda:{config['device']}")))
+    vit_model.load_state_dict(torch.load('./model/20221201-131212_/10vitmodel', map_location=torch.device(f"cuda:{config['device']}")))
 
     criterion = torch.nn.CrossEntropyLoss()
     fake_net_optimizer = AdamW(fake_net.parameters(), lr=config['lr'])
