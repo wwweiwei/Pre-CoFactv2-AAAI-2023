@@ -24,17 +24,22 @@ A multimodality clssification task, which we should find out support, insufficie
 - Train set: 35,000, 7,000 for each class.
 - Validation set: 7,500, 1,500 for each class.
 - Test set: 7,500, 1,500 for each class.
-For more details, please refer to [FACTIFY: A Multi-Modal Fact Verification Dataset](https://www.researchgate.net/publication/356342935_FACTIFY_A_Multi-Modal_Fact_Verification_Dataset).
+<div align="left">
+<img src="assets/dataset_sample.png"  width="650"/>
+</div>
+
+- For more details, please refer to [FACTIFY: A Multi-Modal Fact Verification Dataset](https://www.researchgate.net/publication/356342935_FACTIFY_A_Multi-Modal_Fact_Verification_Dataset).
 
 ## Metric
 F1 averaged across the 5 categories. The final ranking would be based on the weighted average F1 score.
 
-## Method Overview
+## Pre_CoFactv2 Overview
 <div align="left">
 <img src="assets/model_framework.png"  width="650"/>
 </div>
 
 ## Experiment Overview
+
 <div align="left">
 <img src="assets/val_confusion_matrix.png" width="350"/>
 <img src="assets/test_confusion_matrix.png" width="350"/>
