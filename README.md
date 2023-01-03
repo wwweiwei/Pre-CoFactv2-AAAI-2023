@@ -4,7 +4,7 @@ We won the **first place** in [De-Factify workshop in AAAI-23](https://aiisc.ai/
 - Previous verion of our model: [Pre_CoFactv1](https://github.com/wywyWang/Multi-Modal-Fact-Verification-2021)
 
 ## Task
-A multimodality clssification task, which we should find out support, insufficient-evidence and refute between given claims and documents.
+A multimodality clssification task, where the goal is to detect support, insufficient-evidence and refute between given claims and documents.
 
 ## Usage
 - Train model
