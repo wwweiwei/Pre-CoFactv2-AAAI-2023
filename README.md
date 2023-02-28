@@ -1,5 +1,5 @@
 # Official code of Team Triple-Check at Multi-Modal-Fact-Verification-2023
-:tada: :tada: We won the **first place**:fire: in [De-Factify workshop in AAAI-23](https://aiisc.ai/defactify2/) and the technical report can be viewed [here](https://arxiv.org/abs/2302.07740).
+:tada: :tada: We won the :fire:**first place**:fire: in [De-Factify workshop in AAAI-23](https://aiisc.ai/defactify2/) and please the technical report can be viewed [here](https://arxiv.org/abs/2302.07740). The brief introduction of this work can be referred to our [blog](https://medium.com/@wwweiwei/aaai-2023-parameter-efficient-large-foundation-models-with-feature-representations-for-1772a30bcf16).
 
 - Previous verion of our model: [Pre_CoFactv1](https://github.com/wywyWang/Multi-Modal-Fact-Verification-2021)
 
